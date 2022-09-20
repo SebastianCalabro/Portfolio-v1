@@ -15,10 +15,10 @@ const Home = () => {
                 </div>
                 <div className={s.right_side}>
                     <div className={s.links_container}>
-                        <a className={s.link} href="https://github.com/SebastianCalabro" target="_blank">
+                        <a className={s.link} rel="noreferrer" href="https://github.com/SebastianCalabro" target="_blank">
                             <VscGithub className={s.icon1}/>
                         </a>
-                        <a className={s.link} href="https://www.linkedin.com/in/sebastian-calabro/" target="_blank">
+                        <a className={s.link} rel="noreferrer" href="https://www.linkedin.com/in/sebastian-calabro/" target="_blank">
                             <TiSocialLinkedinCircular className={s.icon2}/>
                         </a>
                     </div>
