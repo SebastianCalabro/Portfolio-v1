@@ -1,0 +1,35 @@
+body {
+  font-family: Poppins;
+  margin: 0;
+  min-width: none;
+  min-height: none;
+}
+
+h3 {
+  font-size: 5em;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+}
+
+
+.section{
+  height: 100vh;
+  color: rgb(255, 62, 62);
+}
+
+.fp-section {
+  text-align: initial;
+  background-color: antiquewhite;
+  /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(14,14,87,1) 35%, rgba(111,113,143,1) 100%); */
+  
+}
+.fp-watermark{
+  display: none;
+}
+.fp-overflow{
+  display: flex;
+}
+.fp-section{
+  text-align: unset;
+}
