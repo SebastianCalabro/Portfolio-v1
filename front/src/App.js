@@ -3,8 +3,9 @@ import ReactFullpage from "@fullpage/react-fullpage";
 import './index.css';
 import Home from "./components/Home/Home.jsx";
 import Tecnologies from "./components/Tecnologies/Tecnologies.jsx"
+import Projects from "./components/Proyects/Proyects";
 
-const anchors = ["firstPage", "secondPage", "thirdPage"];
+const anchors = ["Home", "Tecnologies", "Projects"];
 
 const App = () => (
   <ReactFullpage
@@ -23,7 +24,7 @@ const App = () => (
         <div>
           <Home className="section"/>
           <Tecnologies className="section"/>
-          <div className="section"><h3>Section 3</h3></div>
+          <Projects className="section"/>
         </div>
       );
     }}
