@@ -4,8 +4,9 @@ import './index.css';
 import Home from "./components/Home/Home.jsx";
 import Tecnologies from "./components/Tecnologies/Tecnologies.jsx"
 import Projects from "./components/Projects/Projects";
+import Contact from "./components/Contact/Contact";
 
-const anchors = ["Home", "Tecnologies", "Projects"];
+const anchors = ["Home", "Tecnologies", "Projects", "Contact"];
 
 const App = () => (
   <ReactFullpage
@@ -25,6 +26,7 @@ const App = () => (
           <Home className="section"/>
           <Tecnologies className="section"/>
           <Projects className="section"/>
+          <Contact className="section"/>
         </div>
       );
     }}
