@@ -3,7 +3,7 @@ import ReactFullpage from "@fullpage/react-fullpage";
 import './index.css';
 import Home from "./components/Home/Home.jsx";
 import Tecnologies from "./components/Tecnologies/Tecnologies.jsx"
-import Projects from "./components/Proyects/Proyects";
+import Projects from "./components/Projects/Projects";
 
 const anchors = ["Home", "Tecnologies", "Projects"];
 
