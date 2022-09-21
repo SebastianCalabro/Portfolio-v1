@@ -43,27 +43,58 @@
     justify-content: space-evenly;
     width: 80%;
 }
+.name_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 35%;
+    height: 3rem;
+}
+.email_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 35%;
+    height: 3rem;
+}
 .input{
     padding-left: 3px;
-    background: transparent;
     border: none;
     outline: none;
     background: #070718;
     height: 1.5rem;
-    width: 35%;
+    width: 100%;
     font-family: Poppins;
     font-weight: 500;
     font-size: 1rem;
     border: #FFB6C1 1px solid;
     color: white;
 }
+.validate{
+    color: red;
+    font-family: Roboto;
+    font-size: 0.8rem;
+    margin-top: 6px;
+    letter-spacing: 2px;
+}
+.textarea_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 40%;
+    width: 70%;
+    margin-top: 20px;
+}
 .textarea{
     background: #070718;
     border: #FFB6C1 1px solid;
     outline: none;
     resize: none;
-    margin-top: 20px;
-    width: 70%;
+    width: 98%;
+    height: 80%;
     font-family: Poppins;
     font-weight: 500;
     font-size: 1rem;
@@ -87,11 +118,12 @@
     font-family: Roboto;
     font-weight: 700;
     letter-spacing: 4px;
-    transition: transform 0.3s;
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 .submit_button:hover{
     cursor: pointer;
     transform: scale(1.1);
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.705);
 }
 .textarea:focus{
     color: white;
