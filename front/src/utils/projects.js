@@ -8,7 +8,7 @@ export const pokemonPro = {
 }
 export const kembaPro = {
     title: "Sneaker E-commerce",
-    description:"This was my first grupal project using agile scrum methodology, it has features like , catalog, ordering, registration, payment gateway, shopping cart and favorites and dashboard available only for administrators wich gives absolute control of the page.",
+    description:"This was my first grupal project using agile scrum methodology, it has features like , catalog, ordering, registration, payment gateway, shopping cart, favorites and dashboard available only for administrators wich gives absolute control of the page.",
     img:"../../utils/preview-kemba.jpg",
     deploy:"https://pf-henry.vercel.app/",
     repo:"https://github.com/SebastianCalabro/PF---Henry",

@@ -25,7 +25,7 @@ const Home = () => {
                     
                 </div>
             </div>
-            <a href="#secondPage">
+            <a href="#Tecnologies">
                 <FaArrowDown className={s.icon_arrow}/>
             </a>
         </div>

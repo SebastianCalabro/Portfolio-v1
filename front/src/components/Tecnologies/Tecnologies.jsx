@@ -118,7 +118,7 @@ const Tecnologies = () => {
                 </div>
                 <div className={s.br}></div>
             </div>
-            <a href="#thirdPage">
+            <a href="#Projects">
             <FaArrowDown className={s.icon_arrow}/>
             </a>
         </div>

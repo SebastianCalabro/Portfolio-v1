@@ -15,7 +15,7 @@ const Projects = () => {
                     <ProjectCard techs={pokemonPro.tecnologies} title={pokemonPro.title} desc={pokemonPro.description} deploy={pokemonPro.deploy} repo={pokemonPro.repo} img={pokeImage}/>
                     <ProjectCard techs={kembaPro.tecnologies} title={kembaPro.title} desc={kembaPro.description} deploy={kembaPro.deploy} repo={kembaPro.repo} img={kembaImage}/>
                 </div>
-                <a href="#fourthPage">
+                <a href="#Contact">
             <FaArrowDown className={s.icon_arrow}/>
             </a>
             </div>
