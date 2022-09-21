@@ -3,11 +3,14 @@ const Contact = () =>{
     return(
         <div id={s.section} className="section">
             <div className={s.box}>
-
-                <form>
-                    <input type="text" />
-                    <input type="text" />
-                    <textarea name="message" id="" cols="30" rows="10"></textarea>
+                <h1 className={s.contact_title}>CONTACT</h1>
+                <form className={s.form}>
+                    <div className={s.name_and_email}>
+                        <input placeholder="Name" className={s.input} type="text" />
+                        <input placeholder="your@email.com" className={s.input} type="text" />
+                    </div>
+                    <textarea placeholder="Your message..." className={s.textarea} name="message" id="" cols="30" rows="10"></textarea>
+                    <button className={s.submit_button} type="submit">SEND</button>
                 </form>
             </div>
         </div>
