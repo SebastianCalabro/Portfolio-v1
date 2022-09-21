@@ -7,8 +7,10 @@ export const pokemonPro = {
     tecnologies:["react","redux","express","sequelize","postgresql","css3","html5", "nodejs", "javascript"]
 }
 export const kembaPro = {
-    description:"This was my first grupal project using agile scrum methodology, it has features like , catalog, ordering, registration, payment gateway, shopping cart and favorites. Dashboard available only for administrators wich gives absolute control of the page",
+    title: "Sneaker E-commerce",
+    description:"This was my first grupal project using agile scrum methodology, it has features like , catalog, ordering, registration, payment gateway, shopping cart and favorites and dashboard available only for administrators wich gives absolute control of the page.",
     img:"../../utils/preview-kemba.jpg",
     deploy:"https://pf-henry.vercel.app/",
-    repo:"https://github.com/SebastianCalabro/PF---Henry"
+    repo:"https://github.com/SebastianCalabro/PF---Henry",
+    tecnologies:["react","redux","express","sequelize","postgresql","css3","html5", "nodejs", "javascript"]
 }
