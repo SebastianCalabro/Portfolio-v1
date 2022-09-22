@@ -159,6 +159,20 @@
 .textarea::placeholder{
     color: rgb(129, 129, 129);
 }
+@media(min-width: 1600px){
+    .submit_button{
+        transform: scale(1.5);
+    }
+    .submit_button:hover{
+        transform: scale(1.6);
+    }
+    .input{
+        transform: scale(1.2);
+    }
+    .textarea{
+        transform: scale(1.2);
+    }
+}
 @media only screen and (max-width: 600px) {
     .form{
         width: 90%;
