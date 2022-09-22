@@ -166,3 +166,29 @@
     width: 4rem;
     height: 4rem;
 }
+@media only screen and (max-width: 600px) {
+    .box{
+        width: 100vw;
+        overflow-y: initial;
+    }
+    .tech_container{
+        width: 90%;
+    }
+    .tech_box{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        height: 100%;
+    }
+    .each_tech_div{
+        width: 5rem;
+        transform: scale(0.7);
+        margin: 0;
+    }
+    .icon_arrow{
+        transform: scale(2);
+        right: 48%;
+    }
+}
