@@ -166,6 +166,27 @@
     width: 4rem;
     height: 4rem;
 }
+@media(min-width: 1600px){
+    .each_tech_div{
+       height: 12rem;
+       width: 11rem;
+    }
+    .tech_box{
+        align-items: center;
+        justify-content: center;
+        height: 85%;
+    }
+    .top_tech_div{
+        transform: scale(1.5);
+        margin-bottom: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .each_tech_span{
+        font-size: 1.5rem;
+    }
+}
 @media only screen and (max-width: 600px) {
     .box{
         width: 100vw;
