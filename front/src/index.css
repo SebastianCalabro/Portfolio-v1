@@ -33,3 +33,8 @@ h3 {
 .fp-section{
   text-align: unset;
 }
+@media only screen and (max-width: 600px) {
+  .fp-overflow{
+    overflow-y: initial;
+  }
+}

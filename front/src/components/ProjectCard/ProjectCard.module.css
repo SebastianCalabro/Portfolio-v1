@@ -73,8 +73,8 @@
     padding: 10px;
 }
 .tech_icons{
-    height: 3rem;
-    width: 3rem;
+    height: 2.5rem;
+    width: 2.5rem;
     color: #000000;
     margin: 1rem;
 }
@@ -84,7 +84,7 @@
 .project_desc{
     padding: 0;
     margin: 0;
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     width: 90%;
     height: 35%;
     font-weight: 600;
@@ -127,9 +127,20 @@ background: linear-gradient(90deg, rgba(255,182,193,1) 0%, rgba(12,12,39,1) 48%,
 .button_span{
     margin: 6px;
 }
-@media (max-width: 1600px) {
+@media (min-width: 1600px) {
     .project_desc{
-        font-size: 0.9rem;
+        font-size: 1.2rem;
+    }
+    .tech_icons{
+        height: 4rem;
+        width: 4rem;
+    }
+    .techs_container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        flex-wrap: wrap;
     }
 }
 @media only screen and (max-width: 600px) {

@@ -188,8 +188,11 @@
     }
 }
 @media only screen and (max-width: 600px) {
-    .box{
+    #section{
+        overflow-y: initial;
         width: 100vw;
+    }
+    .fp-overflow{
         overflow-y: initial;
     }
     .tech_container{
