@@ -5,7 +5,6 @@ import { FaArrowDown } from "react-icons/fa"
 
 const About = () =>{
     const [lang, setLang] = useState("eng")
-    console.log(lang);
     const handleLang = () =>{
         if(lang==="eng"){
             setLang("esp")
