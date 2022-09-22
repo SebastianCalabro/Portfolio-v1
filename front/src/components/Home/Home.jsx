@@ -2,9 +2,16 @@ import s from "./Home.module.css"
 import { VscGithub } from "react-icons/vsc"
 import { TiSocialLinkedinCircular } from "react-icons/ti"
 import { FaArrowDown } from "react-icons/fa"
+/* import { useEffect } from "react"
+import {useSelector, useDispatch} from 'react-redux'
+import { changePage } from "../../redux/actions" */
 
 const Home = () => {
+    /* const changedPage = useSelector(state => state.changedPage)
+    const dispatch = useDispatch()
+    useEffect(()=>{
 
+    },[changedPage]) */
     return(
         <div id={s.section} className="section">
             <div className={s.box}>
@@ -25,7 +32,7 @@ const Home = () => {
                     
                 </div>
             </div>
-            <a href="#Tecnologies">
+            <a  href="#About">
                 <FaArrowDown className={s.icon_arrow}/>
             </a>
         </div>

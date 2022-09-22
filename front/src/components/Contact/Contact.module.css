@@ -125,6 +125,28 @@
     transform: scale(1.1);
     box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.705);
 }
+.icon_arrow{
+    position: absolute;
+    bottom: 90%;
+    right: 50%;
+    color: #0c0c27;
+    height: 2rem;
+    width: 2rem;
+    animation-name: arrow;
+    animation-duration: 0.6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-in-out;
+    transform: rotate(180deg);
+}
+@keyframes arrow {
+    from{
+        bottom: 91%;
+    }
+    to{
+        bottom: 92%;
+    }
+}
 .textarea:focus{
     color: white;
 }

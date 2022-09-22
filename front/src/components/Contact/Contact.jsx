@@ -1,6 +1,7 @@
 import s from "./Contact.module.css"
 import emailjs from "@emailjs/browser"
 import Swal from 'sweetalert2'
+import { FaArrowDown } from "react-icons/fa"
 
 const Contact = () =>{
     // const sendEmail = (e)=>{
@@ -69,6 +70,9 @@ const Contact = () =>{
                     </div>
                     <button className={s.submit_button} type="submit">SEND</button>
                 </form>
+                <a /* onClick={()=>dispatch(changePage())} */ href="#Home">
+                <FaArrowDown className={s.icon_arrow}/>
+            </a>
             </div>
         </div>
     )
