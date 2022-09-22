@@ -132,3 +132,42 @@ background: linear-gradient(90deg, rgba(255,182,193,1) 0%, rgba(12,12,39,1) 48%,
         font-size: 0.9rem;
     }
 }
+@media only screen and (max-width: 600px) {
+    .image{
+        display: none;
+    }
+    .img_container{
+        display: none;
+
+    }
+    .card_front{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .techs_container{
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .tech_icons{
+        transform: scale(0.8);
+        margin: 0;
+    }
+    .info_front{
+        width: 100%;
+    }
+    .project_title{
+        font-size: 1.5rem;
+    }
+    .br{
+        display: none;
+    }
+    .link{
+        transform: scale(0.8);
+    }
+    .project_desc{
+        font-size: 0.8rem;
+    }
+}
