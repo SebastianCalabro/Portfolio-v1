@@ -159,3 +159,34 @@
 .textarea::placeholder{
     color: rgb(129, 129, 129);
 }
+@media only screen and (max-width: 600px) {
+    .form{
+        width: 90%;
+    }
+    .email_container{
+        width: 45%;
+        margin-left: 10px;
+    }
+    .name_container{
+        width: 45%;
+        margin-right: 10px;
+    }
+    .validate{
+        font-size: 0.6rem;
+        text-align: center;
+    }
+    .textarea_container{
+        height: 60%;
+    }
+    .submit_button{
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .name_and_email{
+        margin-top: 50px;
+    }
+    .icon_arrow{
+        transform: scale(2) rotate(180deg);
+        right: 48%;
+    }
+}
