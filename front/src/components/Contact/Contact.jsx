@@ -4,12 +4,7 @@ import Swal from 'sweetalert2'
 import { FaArrowDown } from "react-icons/fa"
 
 const Contact = () =>{
-    // const sendEmail = (e)=>{
-    //     e.preventDefault()
-    //     emailjs.sendForm("service_gu1zyiq","template_foe24bk",e.target, "oIeXxu1_SwGzfkz4K")
-    //     .then(res=>console.log(res))
-    //     .catch(e=>console.log(e))
-    // }
+    
     const handleSubmit = (e)=>{
         e.preventDefault(e)
         const nameInput = document.getElementById("name")

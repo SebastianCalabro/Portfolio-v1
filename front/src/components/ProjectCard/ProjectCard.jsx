@@ -15,8 +15,7 @@ import { SiJavascript } from "react-icons/si"
 const ProjectCard = ({img, title, desc, deploy, repo, techs}) =>{
     const allTechs = ["react","express","redux","sequelize","postgresql","html5","css3","nodejs","javascript"]
     const myTechs = []
-    // console.log("my techs", techs)
-    // console.log("my title", title)
+
     for (let i = 0; i < allTechs.length; i++) {
         for (let u = 0; u < techs.length; u++) {
             if(techs[u]===allTechs[i]){

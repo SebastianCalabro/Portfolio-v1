@@ -6,7 +6,7 @@ import kembaImage from "../../utils/preview-kemba.jpg"
 import { FaArrowDown } from "react-icons/fa"
 
 const Projects = () => {
-    // console.log(pokemonPro.tecnologies)
+
     return(
         <div id={s.section} className="section">
             <div className={s.box}>
