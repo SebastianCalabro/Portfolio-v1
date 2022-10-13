@@ -10,16 +10,17 @@ import { AiFillHtml5 } from "react-icons/ai"
 import { DiCss3 } from "react-icons/di"
 import { GrNode } from "react-icons/gr"
 import { SiJavascript } from "react-icons/si"
+import { SiTypescript } from "react-icons/si"
 
 
 const ProjectCard = ({img, title, desc, deploy, repo, techs}) =>{
-    const allTechs = ["react","express","redux","sequelize","postgresql","html5","css3","nodejs","javascript"]
+    const allTechs = ["react","express","redux","sequelize","postgresql","html5","css3","nodejs","javascript","typescript"]
     const myTechs = []
 
-    for (let i = 0; i < allTechs.length; i++) {
-        for (let u = 0; u < techs.length; u++) {
-            if(techs[u]===allTechs[i]){
-                myTechs.push(techs[i])
+    for (let i = 0; i < techs.length; i++) {
+        for (let u = 0; u < allTechs.length; u++) {
+            if(techs[i]===allTechs[u]){
+                myTechs.push(allTechs[u])
             }
         }
     }
@@ -45,6 +46,7 @@ const ProjectCard = ({img, title, desc, deploy, repo, techs}) =>{
                                     t=== "sequelize"? <SiSequelize className={s.tech_icons}/> :
                                     t=== "postgresql"? <SiPostgresql className={s.tech_icons}/> :
                                     t === "nodejs"? <GrNode className={s.tech_icons}/> : 
+                                    t=== "typescript"?<SiTypescript className={s.tech_icons}/> :
                                     ""
                                     )
                             }

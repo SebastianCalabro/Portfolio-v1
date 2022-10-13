@@ -1,6 +1,6 @@
 export const pokemonPro = {
-    title:"Pokémon proyect",
-    description:"This proyect was made during Henry bootcamp, it consumes pokeapi and has features like filters, orders, create new pokémons, view details of them and more.",
+    title:"Pokémon project",
+    description:"This project was made during Henry bootcamp, it consumes pokeapi and has features like filters, orders, create new pokémons, view details of them and more.",
     img:"../../utils/preview-pokemon.jpg",
     deploy:"https://pokemon-proyect-mu.vercel.app/",
     repo:"https://github.com/SebastianCalabro/Pokemon-Proyect",
@@ -13,4 +13,12 @@ export const kembaPro = {
     deploy:"https://pf-henry.vercel.app/",
     repo:"https://github.com/SebastianCalabro/PF---Henry",
     tecnologies:["react","redux","express","sequelize","postgresql","css3","html5", "nodejs", "javascript"]
+}
+export const weatherPro = {
+    title: "Weather TS project",
+    description:"This is my first experience integrating TypeScript to one of my projects, it was a challenging experience but, I learned a lot about the language.",
+    img:"../../utils/preview-weather.jpg",
+    deploy:"https://weather-app-typescript-six.vercel.app/",
+    repo:"https://github.com/SebastianCalabro/Weather-App-TypeScript",
+    tecnologies:["react","redux","css3","html5","typescript"]
 }
