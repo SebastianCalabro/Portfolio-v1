@@ -10,9 +10,7 @@ import { DiCss3 } from "react-icons/di"
 import { FaGitAlt } from "react-icons/fa"
 import { GrNode } from "react-icons/gr"
 import { SiJavascript } from "react-icons/si"
-// import { useEffect } from "react"
-// import {useSelector, useDispatch} from 'react-redux'
-// import { changePage } from "../../redux/actions"
+import { SiTypescript } from "react-icons/si"
 
 const Tecnologies = () => {
     /* const changedPage = useSelector(state => state.changedPage)
@@ -48,6 +46,14 @@ const Tecnologies = () => {
                                     <SiJavascript className={s.js_icon}/>
                                 </div>
                                 <span className={s.each_tech_span}>JavaScript</span>
+                            </div>
+                        </a>
+                        <a className={s.link} target="_blank" rel="noreferrer" href="https://www.typescriptlang.org/">
+                            <div className={s.each_tech_div}>
+                                <div className={s.top_tech_div}>
+                                    <SiTypescript className={s.ts_icon}/>
+                                </div>
+                                <span className={s.each_tech_span}>TypeScript</span>
                             </div>
                         </a>
                         <a className={s.link} target="_blank" rel="noreferrer" href="https://es.reactjs.org/">
