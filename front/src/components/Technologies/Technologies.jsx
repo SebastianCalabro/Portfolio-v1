@@ -1,4 +1,4 @@
-import s from "./Tecnologies.module.css"
+import s from "./Technologies.module.css"
 import { FaArrowDown } from "react-icons/fa"
 import { FaReact } from "react-icons/fa"
 import { SiExpress } from "react-icons/si"
@@ -12,7 +12,7 @@ import { GrNode } from "react-icons/gr"
 import { SiJavascript } from "react-icons/si"
 import { SiTypescript } from "react-icons/si"
 
-const Tecnologies = () => {
+const Technologies = () => {
     /* const changedPage = useSelector(state => state.changedPage)
     const dispatch = useDispatch()
     useEffect(()=>{
@@ -122,4 +122,4 @@ const Tecnologies = () => {
         </div>
     )
 }
-export default Tecnologies
+export default Technologies
