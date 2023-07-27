@@ -7,7 +7,7 @@ import Projects from "./components/Projects/Projects.jsx";
 import Contact from "./components/Contact/Contact.jsx";
 import About from "./components/About/About.jsx";
 
-const anchors = ["Home","About", "Tecnologies", "Projects", "Contact"];
+const anchors = ["Home","About", "Technologies", "Projects", "Contact"];
 
 const App = () => (
   <ReactFullpage
