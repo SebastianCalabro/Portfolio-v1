@@ -11,17 +11,16 @@ import { FaGitAlt } from "react-icons/fa"
 import { GrNode } from "react-icons/gr"
 import { SiJavascript } from "react-icons/si"
 import { SiTypescript } from "react-icons/si"
+import {useContext} from "react"
+import { gContext } from "../../context/global"
+import { engInfo, spaInfo } from "../../utils/info"
 
 const Technologies = () => {
-    /* const changedPage = useSelector(state => state.changedPage)
-    const dispatch = useDispatch()
-    useEffect(()=>{
-
-    },[changedPage]) */
+    const {language, toggleLanguage} = useContext(gContext)
     return(
         <div id={s.section} className="section">
             <div className={s.box}>
-            <h1 className={s.stack_title}>STACK</h1>
+            <h1 className={s.stack_title}>{language==="eng"?engInfo.Titles.technologies:spaInfo.Titles.technologies}</h1>
                 <div className={s.tech_container}>
                     <div className={s.tech_box}>
                         <a className={s.link} target="_blank" rel="noreferrer" href="https://developer.mozilla.org/es/docs/Web/HTML">

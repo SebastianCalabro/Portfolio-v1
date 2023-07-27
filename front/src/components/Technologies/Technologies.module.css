@@ -198,11 +198,15 @@
 }
 @media only screen and (max-width: 600px) {
     #section{
-        overflow-y: initial;
-        width: 100vw;
+        overflow:hidden;
+        width: 100%;
+        background:aqua;
+    }
+    .box{
+        overflow:hidden;
     }
     .fp-overflow{
-        overflow-y: initial;
+        overflow:hidden;
     }
     .tech_container{
         width: 90%;

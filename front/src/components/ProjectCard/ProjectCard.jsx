@@ -11,9 +11,13 @@ import { DiCss3 } from "react-icons/di"
 import { GrNode } from "react-icons/gr"
 import { SiJavascript } from "react-icons/si"
 import { SiTypescript } from "react-icons/si"
+import { useContext } from "react"
+import { gContext } from "../../context/global"
 
 
 const ProjectCard = ({img, title, desc, deploy, repo, techs}) =>{
+    const {language, toggleLanguage} = useContext(gContext)
+
     const allTechs = ["react","express","redux","sequelize","postgresql","html5","css3","nodejs","javascript","typescript"]
     const myTechs = []
 
@@ -61,7 +65,7 @@ const ProjectCard = ({img, title, desc, deploy, repo, techs}) =>{
                             <span className={s.button_span}>deploy</span> <BsBoxArrowUpRight className={s.button_icons}/>
                         </a>
                         <a className={s.link} href={repo} target="_blank" rel="noreferrer">
-                            <span className={s.button_span}>repository</span> <FiGithub className={s.button_icons}/>
+                            <span className={s.button_span}>{language==="eng"?"repository":"repositorio"}</span> <FiGithub className={s.button_icons}/>
                         </a>
                     </div>
                 </div>
